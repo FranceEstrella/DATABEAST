@@ -48,16 +48,16 @@ Partial Class Login
         'btnlogin
         '
         Me.btnlogin.BackColor = System.Drawing.Color.Transparent
+        Me.btnlogin.BackgroundImage = CType(resources.GetObject("btnlogin.BackgroundImage"), System.Drawing.Image)
         Me.btnlogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnlogin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnlogin.FlatAppearance.BorderSize = 0
         Me.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnlogin.ForeColor = System.Drawing.Color.Transparent
-        Me.btnlogin.Image = CType(resources.GetObject("btnlogin.Image"), System.Drawing.Image)
-        Me.btnlogin.Location = New System.Drawing.Point(346, 332)
+        Me.btnlogin.Location = New System.Drawing.Point(354, 340)
         Me.btnlogin.Margin = New System.Windows.Forms.Padding(0)
         Me.btnlogin.Name = "btnlogin"
-        Me.btnlogin.Size = New System.Drawing.Size(148, 50)
+        Me.btnlogin.Size = New System.Drawing.Size(127, 40)
         Me.btnlogin.TabIndex = 2
         Me.btnlogin.Text = " "
         Me.btnlogin.UseVisualStyleBackColor = False
@@ -74,7 +74,9 @@ Partial Class Login
         Me.Controls.Add(Me.txt1)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Login"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DataBeast"
         Me.ResumeLayout(False)
         Me.PerformLayout()

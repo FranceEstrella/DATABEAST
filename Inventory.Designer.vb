@@ -48,7 +48,9 @@ Partial Class Inventory
         Me.ClientSize = New System.Drawing.Size(838, 446)
         Me.Controls.Add(Me.btnback2)
         Me.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Inventory"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DataBeast"
         Me.ResumeLayout(False)
 

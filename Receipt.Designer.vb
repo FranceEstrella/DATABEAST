@@ -47,7 +47,9 @@ Partial Class Receipt
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(838, 441)
         Me.Controls.Add(Me.btnback1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Receipt"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DataBeast"
         Me.ResumeLayout(False)
 
