@@ -73,6 +73,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employee.Designer.vb">
+      <DependentUpon>Employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory2.Designer.vb">
+      <DependentUpon>Inventory2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lvl2Menu.Designer.vb">
+      <DependentUpon>Lvl2Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lvl2Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Inventory.Designer.vb">
       <DependentUpon>Inventory.vb</DependentUpon>
     </Compile>
@@ -113,8 +131,23 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Receipt2.Designer.vb">
+      <DependentUpon>Receipt2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Receipt2.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory2.resx">
+      <DependentUpon>Inventory2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lvl2Menu.resx">
+      <DependentUpon>Lvl2Menu.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inventory.resx">
       <DependentUpon>Inventory.vb</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +165,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipt2.resx">
+      <DependentUpon>Receipt2.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

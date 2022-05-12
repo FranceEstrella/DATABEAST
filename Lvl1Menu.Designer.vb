@@ -22,22 +22,12 @@ Partial Class Lvl1Menu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim btnreceipt As System.Windows.Forms.Button
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Lvl1Menu))
+        Dim btnreceipt As System.Windows.Forms.Button
         Me.btninventory = New System.Windows.Forms.Button()
         Me.btnlogout = New System.Windows.Forms.Button()
         btnreceipt = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'btnreceipt
-        '
-        resources.ApplyResources(btnreceipt, "btnreceipt")
-        btnreceipt.Cursor = System.Windows.Forms.Cursors.Hand
-        btnreceipt.FlatAppearance.BorderSize = 0
-        btnreceipt.ForeColor = System.Drawing.Color.Transparent
-        btnreceipt.Name = "btnreceipt"
-        btnreceipt.UseVisualStyleBackColor = True
-        AddHandler btnreceipt.Click, AddressOf Me.Button1_Click
         '
         'btninventory
         '
@@ -54,6 +44,16 @@ Partial Class Lvl1Menu
         Me.btnlogout.FlatAppearance.BorderSize = 0
         Me.btnlogout.Name = "btnlogout"
         Me.btnlogout.UseVisualStyleBackColor = True
+        '
+        'btnreceipt
+        '
+        resources.ApplyResources(btnreceipt, "btnreceipt")
+        btnreceipt.Cursor = System.Windows.Forms.Cursors.Hand
+        btnreceipt.FlatAppearance.BorderSize = 0
+        btnreceipt.ForeColor = System.Drawing.Color.Transparent
+        btnreceipt.Name = "btnreceipt"
+        btnreceipt.UseVisualStyleBackColor = True
+        AddHandler btnreceipt.Click, AddressOf Me.Button1_Click
         '
         'Lvl1Menu
         '
