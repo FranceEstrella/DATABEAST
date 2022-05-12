@@ -33,7 +33,7 @@ Partial Class Inventory2
         Me.btnback1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnback1.FlatAppearance.BorderSize = 0
         Me.btnback1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnback1.Location = New System.Drawing.Point(39, 41)
+        Me.btnback1.Location = New System.Drawing.Point(43, 41)
         Me.btnback1.Name = "btnback1"
         Me.btnback1.Size = New System.Drawing.Size(39, 37)
         Me.btnback1.TabIndex = 3
@@ -45,10 +45,12 @@ Partial Class Inventory2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(838, 441)
         Me.Controls.Add(Me.btnback1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Inventory2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DataBeast"
         Me.ResumeLayout(False)
 

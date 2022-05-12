@@ -41,7 +41,7 @@ Partial Class Lvl2Menu
         btnreceipt2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         btnreceipt2.ForeColor = System.Drawing.Color.Transparent
         btnreceipt2.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        btnreceipt2.Location = New System.Drawing.Point(153, 212)
+        btnreceipt2.Location = New System.Drawing.Point(170, 199)
         btnreceipt2.Name = "btnreceipt2"
         btnreceipt2.Size = New System.Drawing.Size(249, 47)
         btnreceipt2.TabIndex = 1
@@ -61,9 +61,9 @@ Partial Class Lvl2Menu
         Me.btninventory2.FlatAppearance.BorderSize = 0
         Me.btninventory2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btninventory2.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.btninventory2.Location = New System.Drawing.Point(406, 210)
+        Me.btninventory2.Location = New System.Drawing.Point(419, 199)
         Me.btninventory2.Name = "btninventory2"
-        Me.btninventory2.Size = New System.Drawing.Size(249, 51)
+        Me.btninventory2.Size = New System.Drawing.Size(249, 47)
         Me.btninventory2.TabIndex = 2
         Me.btninventory2.UseVisualStyleBackColor = True
         '
@@ -75,7 +75,7 @@ Partial Class Lvl2Menu
         Me.btnlogout2.FlatAppearance.BorderSize = 0
         Me.btnlogout2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnlogout2.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.btnlogout2.Location = New System.Drawing.Point(337, 366)
+        Me.btnlogout2.Location = New System.Drawing.Point(358, 341)
         Me.btnlogout2.Name = "btnlogout2"
         Me.btnlogout2.Size = New System.Drawing.Size(125, 39)
         Me.btnlogout2.TabIndex = 3
@@ -90,9 +90,9 @@ Partial Class Lvl2Menu
         Me.btnemployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnemployee.ForeColor = System.Drawing.Color.Transparent
         Me.btnemployee.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.btnemployee.Location = New System.Drawing.Point(170, 267)
+        Me.btnemployee.Location = New System.Drawing.Point(170, 252)
         Me.btnemployee.Name = "btnemployee"
-        Me.btnemployee.Size = New System.Drawing.Size(466, 50)
+        Me.btnemployee.Size = New System.Drawing.Size(498, 55)
         Me.btnemployee.TabIndex = 5
         Me.btnemployee.UseVisualStyleBackColor = True
         '
@@ -102,13 +102,15 @@ Partial Class Lvl2Menu
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(804, 470)
+        Me.ClientSize = New System.Drawing.Size(838, 441)
         Me.Controls.Add(Me.btnemployee)
         Me.Controls.Add(Me.btnlogout2)
         Me.Controls.Add(Me.btninventory2)
         Me.Controls.Add(btnreceipt2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Lvl2Menu"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DataBeast"
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
